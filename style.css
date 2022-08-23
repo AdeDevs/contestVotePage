@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Quicksand&display=swap');
+
+body {
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+li a {
+  text-decoration: none;
+  color: #2d2f31;
+}
+
+img {
+  opacity: 1;
+}
+
+header {
+  position: fixed;
+  top: 0%;
+  display: flex;
+  width: 100%;
+  background-color: rgba(59, 57, 57, 1);
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1400px;
+  overflow: hidden;
+}
+
+ul {
+  font-weight: bolder;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+}
+
+li {
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 75%;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: "Quicksand";
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn {
+  background-color: rgb(102, 181, 76);
+  border: none;
+  color: black;
+  font-weight: bolder;
+  border-radius: 5px;
+  font-family: "Quicksand";
+  text-align: center;
+}
+
+header p a:hover {
+  color: rgb(58, 109, 42);
+}
+
+.btn:hover, .btn a:hover{
+  background-color: rgb(76, 141, 54);
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: inherit;
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .box-1 {
+  width: 435px;
+}
+
+.container .box-1 img{
+  width: 230px;
+}
+
+.container .box-2 {
+  width: 890px;
+}
+
+.container h2 {
+  font-weight: bold;
+  margin: 10px;
+  font-size: 2em;
+  text-transform: capitalize;
+}
+
+.container p {
+  margin: 10px;
+  font-size: 1em;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+#bottom {
+  font-size: 1.3em;
+  font-weight: bolder;
+  float: right;
+}
