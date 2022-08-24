@@ -37,7 +37,7 @@ header {
   overflow: hidden;
 }
 
-ul {
+header ul {
   font-weight: bolder;
   list-style-type: none;
   margin: 0;
@@ -52,7 +52,7 @@ ul {
 li {
 }
 
-li a,
+header li a,
 .dropbtn {
   display: inline-block;
   color: white;
@@ -61,12 +61,12 @@ li a,
   text-decoration: none;
 }
 
-li a:hover,
+header li a:hover,
 .dropdown:hover .dropbtn {
   background-color: red;
 }
 
-li.dropdown {
+header li.dropdown {
   display: inline-block;
 }
 
@@ -252,5 +252,135 @@ header p a:hover {
 
 .mid-section .box-4 button:hover,
 .mid-section .box-4 button:hover {
-  background-color: rgb(58, 109, 42) x;
+  background-color: rgb(58, 109, 42);
+}
+
+footer {
+  width: 100%;
+  margin: 50px auto 0px auto;
+  box-sizing: border-box;
+}
+
+footer ul {
+  display: block;
+}
+
+footer .pre-footer {
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgba(194, 128, 58, 0.1);
+  box-sizing: border-box;
+  padding: 50px 3px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  line-height: 3em;
+}
+
+footer .pre-footer h2 {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+footer .pre-footer input {
+  border: none;
+  border-radius: 6px 0px 0px 6px;
+  font-size: 1em;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  padding: 0 10px;
+  height: 49px;
+  width: 40%;
+  margin: 10px auto;
+}
+
+footer .pre-footer input:focus {
+  border: 3px solid #2d2f31;
+}
+
+footer .pre-footer input::placeholder {
+  font-size: 1em;
+  font-weight: 800;
+}
+
+footer .pre-footer .submit-btn {
+  border: none;
+  background-color: rgb(102, 181, 76);
+  border-radius: 0px 6px 6px 0px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: white;
+  margin-left: -4.7px;
+  padding: 10px;
+  height: 50px;
+}
+
+footer .pre-footer .submit-btn:hover,
+footer .pre-footer a:hover {
+  background-color: rgb(58, 109, 42);
+}
+
+footer .main-footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: white;
+  box-sizing: border-box;
+  background-color: black;
+  margin: 0 auto;
+}
+
+footer .main-footer div {
+  width: 400px;
+  flex-wrap: wrap;
+  height: 300px;
+  margin: 10px;
+  display: flex;
+}
+
+footer .main-footer .img-box {
+  display: block;
+  margin-right: 80px;
+}
+
+footer .main-footer .img-box img {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+footer .main-footer div section {
+  padding: 5px;
+  margin: 0 auto;
+}
+
+footer .main-footer h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+}
+
+footer ul {
+  list-style-type: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+}
+
+footer ul li {
+  padding: 10px 0;
+}
+
+footer a {
+  color: white;
+}
+footer .main-footer a:hover {
+  color: blue;
+}
+
+footer .main-footer p {
+  padding: 40px 0px 10px 0;
 }
